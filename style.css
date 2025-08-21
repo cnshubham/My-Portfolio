@@ -19,10 +19,10 @@
 body {
   background: var(--bg-color1);
   color: var(--text-color);
-
+  overflow-x: hidden;
 }
 
-/* home */
+/* home-section */
 .body {
   position: relative;
   width: 100vw;
@@ -245,6 +245,36 @@ section {
   font-weight: 400;
   line-height: 35px;
   color: #c2bfd1;
+}
+
+/* up-arrow  */
+
+.uparrow {
+  width: 45px;
+  border-radius: 50%;
+  position: sticky;
+  left: 96%;
+  top: 700px;
+  background: var(--second-main-color);
+  transition: all .50s ease;
+}
+
+.uparrow a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+
+}
+
+.uparrow a i {
+  color: black;
+  font-size: 2rem;
+
+}
+
+.uparrow:hover {
+  transform: rotate(10deg);
 }
 
 /* skills section */
